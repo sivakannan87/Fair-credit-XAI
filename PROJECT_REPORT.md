@@ -1,4 +1,4 @@
-# IDRBT Project Submission & Technical Dossier
+# Banking AI Project Submission & Technical Dossier
 
 **Domain Track:** AI, Data Analytics, Frontier AI Models and Emerging Scenarios  
 **Core Theme:** Responsible, Explainable and Interpretable AI Models in the Banking Sector  
@@ -73,7 +73,7 @@ As Indian commercial banks and NBFCs accelerate digital lending under the aegis 
 ## 3. Technology Deployments & Open-Source Contributions
 
 ### A. Open-Source Contribution Blueprint
-- **Repository Name:** `faircredit-xai-idrbt`
+- **Repository Name:** `faircredit-xai`
 - **License:** MIT License (Permissive open-source research and banking deployment).
 - **Architecture Modularity:** Clean, standalone modules (`credit_model.py`, `fairness_audit.py`, `explainability.py`, `app.py`) designed for zero-friction integration with existing Python/Java core banking services.
 - **Reproducibility:** Self-contained data synthesis, deterministic seeds, and one-command launch via `streamlit run app.py`.
@@ -113,7 +113,7 @@ This framework is directly applicable to three major real-world consulting scena
 
 | Deliverable | Location | Status |
 | :--- | :--- | :--- |
-| **Complete Source Code** | `d:/IDRBT banking project/` | Fully functional, documented, and modular |
+| **Complete Source Code** | `faircredit-xai/` (Project Root) | Fully functional, documented, and modular |
 | **Live Interactive UI** | `app.py` (Streamlit) | Real-time underwriter view, SHAP waterfall, and bias auditor |
 | **Synthetic Banking Dataset** | `loan_data.csv` (2,500 records) | Mapped to Indian banking context (CIBIL, INR income, DTI) |
 | **Regulatory Model Card** | Exportable from UI / `README.md` | Pre-configured to RBI Responsible AI standards |

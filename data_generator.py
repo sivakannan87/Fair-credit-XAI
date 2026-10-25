@@ -88,6 +88,6 @@ def generate_credit_data(n_samples: int = 2500, random_seed: int = 42) -> pd.Dat
 
 if __name__ == "__main__":
     df = generate_credit_data(2500)
-    df.to_csv("d:/IDRBT banking project/loan_data.csv", index=False)
+    df.to_csv("loan_data.csv", index=False)
     print(f"Generated {len(df)} loan applications. Approval rate: {df['approved'].mean():.2%}")
     print(df.head())

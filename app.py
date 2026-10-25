@@ -12,7 +12,7 @@ from fairness_audit import audit_fairness, get_fairness_health_score
 from explainability import ExplainabilityEngine
 
 st.set_page_config(
-    page_title="FairCredit-XAI | IDRBT Responsible Banking AI",
+    page_title="FairCredit-XAI | Responsible Banking AI",
     page_icon="🏦",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -80,7 +80,7 @@ df["pred_approved"] = (df["pred_prob"] >= 0.50).astype(int)
 
 # Sidebar
 st.sidebar.image("https://img.icons8.com/color/96/bank-building.png", width=64)
-st.sidebar.title("IDRBT FairCredit-XAI")
+st.sidebar.title("FairCredit-XAI")
 st.sidebar.caption("Responsible & Explainable Credit AI Engine")
 st.sidebar.markdown("---")
 
@@ -92,7 +92,7 @@ applicant_list = df["applicant_id"].head(50).tolist()
 selected_applicant_id = st.sidebar.selectbox("Select Applicant ID for Audit:", applicant_list, index=3)
 
 st.sidebar.markdown("---")
-st.sidebar.caption("Project developed for IDRBT Assessment")
+st.sidebar.caption("Model Governance & Compliance Dashboard")
 
 # Main Header
 st.markdown("<div class='main-header'>FairCredit-XAI: Responsible, Fair & Explainable Credit Intelligence</div>", unsafe_allow_html=True)
@@ -126,7 +126,7 @@ with tab1:
 
     st.markdown("---")
     
-    st.markdown("### 🎯 Why IDRBT Needs This Framework")
+    st.markdown("### 🎯 Why Banks Need This Governance Framework")
     colA, colB = st.columns(2)
     with colA:
         st.markdown("""
@@ -285,7 +285,7 @@ with tab5:
     model_card_text = f"""
 # REGULATORY MODEL CARD: FairCredit-XAI
 **Governing Institution:** Indian Commercial Bank / NBFC  
-**Auditing Entity:** IDRBT Center for AI & Financial Technologies  
+**Auditing Entity:** Model Risk Management (MRM) & Compliance Committee  
 **Model Version:** 1.0.0-PROD  
 **Model Architecture:** Calibrated Gradient Boosting Decision Trees (GBDT)  
 

@@ -1,4 +1,4 @@
-# IDRBT-RespAI: Responsible, Explainable and Interpretable AI for Credit Decisioning in Indian Banking
+# FairCredit-XAI: Responsible, Explainable and Interpretable AI for Credit Decisioning in Indian Banking
 ### Aligned with RBI Responsible AI Guidelines & Model Risk Management (MRM)
 
 ---
@@ -40,11 +40,10 @@
 
 ---
 
-## 🎯 Why This Project for IDRBT?
+## 🎯 Strategic Industry Relevance
 
-1. **Strategic Fit for IDRBT & RBI**:
-   - IDRBT is the research arm of the Reserve Bank of India (RBI).
-   - RBI's ongoing focus on **Responsible AI**, **Fair Credit Access**, and **Customer Protection** means black-box loan denials without actionable reasons are unacceptable.
+1. **Strategic Fit for Indian Banking & RBI Compliance**:
+   - Regulatory focus is squarely on **Responsible AI**, **Fair Credit Access**, and **Customer Protection**, meaning black-box loan denials without actionable reasons are unacceptable.
    - This project addresses the exact real-world dilemma: *How do Indian banks deploy predictive AI without violating non-discrimination principles or leaving customers uninformed?*
 
 2. **The 3-Minute Interview Pitch**:
@@ -95,8 +94,8 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/idrbt-faircredit-xai.git
-cd idrbt-faircredit-xai
+git clone https://github.com/your-username/faircredit-xai.git
+cd faircredit-xai
 
 # Install dependencies
 pip install -r requirements.txt
