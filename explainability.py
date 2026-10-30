@@ -108,7 +108,7 @@ class ExplainabilityEngine:
         - Increase tenure_months (stretching tenure to reduce monthly burden)
         """
         current_df = self._format_input(applicant_series)
-        current_data = current_df.iloc[0].to_dict()
+        current_data = current_df.to_dict(orient="records")[0]
         current_prob = float(self.model.predict_proba(current_df)[:, 1][0])
 
         if current_prob >= 0.50:
